@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: 'iconfont';  /* project id 572320 */
+    src: url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.eot');
+    src: url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.svg#iconfont') format('svg');
+}
+
+*{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.all-back{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+.head{
+    width: 100vw;
+    height: 2.35rem;
+    background: #009CFF;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.kong11111{
+    width: 100vw;
+    height: 2.35rem;
+}
+.head span{
+    margin-left: .57rem;
+    line-height: 3rem;
+    font-size: .45rem;
+    color:#fff;
+}
+.kong{
+    height: .1rem;
+    width: 100vw;
+    background: #F5F5F5;
+}
+.top{
+    width: 100vw;
+    height: 6.9rem;
+    border-top: .05rem solid #BEBEBE;
+}
+.topli{
+    padding-top: .01rem;
+    width: 5.37rem;
+    height: 2.29rem;
+    border-bottom: .01rem solid #f1f1f1;
+    border-right: .01rem solid #f1f1f1;
+}
+.toplibox{
+    width: 4.5rem;
+    height: 1.4rem;
+    padding-top: .45rem;
+    margin:auto;
+    position: relative;
+}
+.toplibox ul{
+    font-size: .38rem;
+    color: #ffdd76;
+    position: absolute;
+    top: .55rem;
+}
+.toplibox span{
+    font-size: .27rem;
+    position: absolute;
+    bottom: .2rem;
+    color:#BEBEBE;
+ }
+.toplibox img{
+    width: 1.34rem;
+    height: 1.34rem;
+    position: absolute;
+    top:.45rem;
+    right: 0;
+}
+.topli11{
+    float: right;
+    border-right:0;
+}
+.kong1{
+    width: 100vw;
+    height: .29rem;
+    background: #f5f5f5;
+}
+.bottom-top{
+    width: 100vw;
+    height: 1.92rem;
+    border-top: .03rem solid #BEBEBE;
+}
+.bottom-topword{
+    font-family:'iconfont';
+    width: 4.24rem;
+    height: 1.04rem;
+    margin: auto;
+    margin-top: .6rem;
+}
+.red{
+    color:red
+}
+.bottom-topword h3{
+    float:left;
+    font-size: .44rem;
+}
+.bottom-topword li{
+    width: 3.38rem;
+    height: .6rem;
+    margin: auto;
+    display: block;
+}
+.bottom-topword ul{
+    margin:auto;
+    font-size: .08rem;
+    text-align: center;
+    color: #b0b0b0;
+}
+.bottom-bb{
+    width: 4.98rem;
+    height: 7.59rem;
+    border: 0.03rem solid #F0EEEF;
+    margin-left: .23rem;
+    margin-bottom: .24rem;
+    float: left;
+}
+.img{
+    width: 4.98rem;
+    height: 4.98rem;
+    position: relative;
+}
+.bottom-bb img{
+    width: 4.98rem;
+    height: 4.98rem;
+}
+.imgword{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: .29rem;
+    height: .57rem;
+    width: 4.98rem;
+    text-align: center;
+    line-height: .57rem;
+    color:#EDECE8;
+    background: rgba(0, 0, 0, 0.6);
+}
+.imgmiddle{
+    width: 4.39rem;
+    height: 1.66rem;
+    margin:auto;
+    position: relative;
+    border-bottom: .03rem dashed #b0b0b0;
+}
+.imgmiddle h3{
+    font-size: .37rem;
+}
+.imgmiddle span{
+    position: absolute;
+    top: .45rem;
+    font-size: .10rem;
+}
+.imgmiddle ul {
+    font-size: .1rem;
+    position: absolute;
+    bottom: .1rem;
+    left:0;
+    color:red;
+}
+.imgmiddle li{
+    font-size: .5rem;
+    position: absolute;
+    bottom: -.01rem;
+    left: .3rem;
+    color:red;
+}
+.imgbottom{
+    font-family: 'iconfont';
+    height: .93rem;
+    width: 4.39rem;
+    margin:auto;
+    line-height: .93rem;
+    font-size: .14rem;
+    color:#b0b0b0;
+}
+
+
+
+
+.allbottom{
+    width: 100vw;
+    height: 1.48rem;
+    background: #f6f6f6;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    font-family: 'iconfont';
+}
+.allbottom li{
+    width: .7rem;
+    height:1.05rem;
+    position: relative;
+    color: #bcb6be;
+}
+.allbottom li ul{
+    font-size: .63rem;
+    position: absolute;
+    top: .2rem;
+
+}
+.allbottom li span{
+    font-size: .14rem ;
+    position: absolute;
+    bottom:-.3rem;
+}
+.allbottom .bot1{
+    color:#008BFF;
+}
+.bot2{
+    color: #ff8e4a;
+}
+.btn3{
+    color: #ff711d;
+}

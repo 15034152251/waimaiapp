@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 572320 */
+    src: url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.eot');
+    src: url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_572320_pb0vohvcgeamunmi.svg#iconfont') format('svg');
+}
+
+
+*{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.all-back{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+.head{
+    width: 100vw;
+    height: 2.35rem;
+    background: #009CFF;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.kong11111{
+    width: 100vw;
+    height: 2.35rem;
+}
+.head span{
+    margin-left: .57rem;
+    line-height: 3rem;
+    font-size: .45rem;
+    color:#fff;
+}
+.geren{
+    background: #009CFF;
+    width: 100vw;
+    height: 3.47rem;
+}
+.gerenli{
+    width: 9.81rem;
+    height: 2.18rem;
+    margin:auto;
+    padding-top: .45rem;
+}
+.touxiang{
+    border-radius: 50%;
+    width: 2.18rem;
+    height: 2.18rem;
+    overflow:hidden;
+    float:left;
+}
+.touxiang img {
+    width: 2.18rem;
+    height: 2.18rem;
+}
+.xinxi{
+    padding-left: .5rem;
+    float: left;
+    width: 3rem;
+    height: 1.2rem;
+    padding-top: .5rem;
+    font-family: 'iconfont';
+    font-size: .5rem;
+    color: #DEF6FD;
+}
+.xinxi  span,ul{
+    /*float: left;*/
+}
+.xinxi ul{
+    width: 3rem;
+    height: .6rem;
+}
+.xinxi li{
+    display: inline-block;
+    font-size: .1rem;
+}
+.jiantou{
+    padding-top: .5rem;
+    float: right;
+    color:#DEF6FD;
+}
+.kong{
+    width: 100vw;
+    height: .24rem;
+    background: #f5f5f5;
+    border-bottom: .01rem solid #e8e8e8;
+}
+.dizhi{
+    width: 100vw;
+    height: 1.44rem;
+    border-bottom:.01rem solid #e8e8e8;
+}
+.dizhili{
+    width: 9.68rem;
+    height: .61rem;
+    margin:auto;
+    padding-top: .43rem;
+    font-family: 'iconfont';
+}
+.dizhili li{
+    color:#49A5F1;
+    font-size: .58rem;
+    float: left;
+}
+.dizhili span{
+    font-weight: 500;
+    float: left;
+    font-size: .5rem;
+}
+
+
+
+
+.allbottom{
+    width: 100vw;
+    height: 1.48rem;
+    background: #f6f6f6;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    font-family: 'iconfont';
+}
+.allbottom li{
+    width: .7rem;
+    height:1.05rem;
+    position: relative;
+    color: #bcb6be;
+}
+.allbottom li ul{
+    font-size: .63rem;
+    position: absolute;
+    top: .2rem;
+
+}
+.allbottom li span{
+    font-size: .14rem ;
+    position: absolute;
+    bottom:-.3rem;
+}
+.allbottom .bot1{
+    color:#008BFF;
+}
+.bot2{
+    color: #ff8e4a;
+}
